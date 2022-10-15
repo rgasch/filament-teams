@@ -1,0 +1,41 @@
+{
+    "name": "rgasch/filament-teams",
+    "description": "Team Manager Resource For Filament Admin",
+    "keywords": [
+        "laravel",
+        "teams",
+        "resource",
+        "ui",
+        "filament"
+    ],
+    "homepage": "https://github.com/rgasch/filament-teams",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rgasch\\FilamentTeams\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rgasch",
+            "email": "rgasch@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "filament/filament": "^2.9",
+        "mpociot/teamwork": "^7.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rgasch\\FilamentTeams\\FilamentTeamsProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
